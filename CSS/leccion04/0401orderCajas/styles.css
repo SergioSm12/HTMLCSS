@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1035px;
+    border: 1px solid black;
+}
+.caja{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px 15px 15px 15px;/*top -btn - right -left*/
+    padding: 20px; /* Margin interior */
+    float: left; /*movimiento de divs o cajas*/
+}
+
+.caja p{
+    font-weight: bold; /*texto en negrita*/ 
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 235px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+

@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{ /*Escoge el primer elememento de la lista*/
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){/*Escoge el elemento de la lista numero 2*/
+    color: orange;
+    font-weight: bold;
+}
+
+
+ul li:last-child{ /*Escoge el ultimo elemento de la lista*/
+    color: gray;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlace:link{/*Cuando a un no he visitado este enlace*/
+    color: red;
+}
+
+#mi-enlace:visited{/*Cuando he visitado este enlace*/
+    color: orangered;
+}
+
+#mi-enlace:hover{/* Cuando se pasa por ensima cambia de color*/
+    color: blue;
+}
+
+#mi-enlace:active{/*mientras se este pulsando*/
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{ /*Cuando este en el campo*/
+    border: 4px solid red;
+}
